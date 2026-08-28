@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TappuTV Rhyme Video Manifest",
+  "type": "object",
+  "required": ["videos"],
+  "properties": {
+    "version": { "type": "number" },
+    "baseUrl": { "type": "string" },
+    "videos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "language", "file"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string" },
+          "language": { "enum": ["en", "hi"] },
+          "file": { "type": "string" },
+          "thumbnail": { "type": "string" },
+          "duration": { "type": "number" },
+          "channel": { "type": "string" }
+        }
+      }
+    }
+  }
+}

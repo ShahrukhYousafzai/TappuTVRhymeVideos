@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Large/temp files that should never be committed accidentally
+*.part
+*.tmp
+*.download
+tmp/
