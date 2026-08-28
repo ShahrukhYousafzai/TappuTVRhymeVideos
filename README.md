@@ -6,17 +6,17 @@ This repo replaces the YouTube dependency with directly-serveable MP4 files, so 
 ## Structure
 
 ```
-videos.json      # manifest consumed by the app
-schema.json      # JSON schema for the manifest
-videos/en/       # English rhyme MP4s
-videos/hi/       # Hindi rhyme MP4s
-thumbnails/      # poster images (jpg)
-scripts/         # validation tooling
+videos.json          # manifest consumed by the app
+schema.json          # JSON schema for the manifest
+videos/HindiRhymes/  # Hindi rhyme MP4s
+videos/EnglishRhymes/# English rhyme MP4s (to be added)
+thumbnails/          # poster images (jpg)
+scripts/             # validation tooling
 ```
 
 ## Adding a video
 
-1. Drop the MP4 into `videos/en/` or `videos/hi/` (H.264 + AAC recommended; keep files < 95 MB — GitHub rejects files > 100 MB).
+1. Drop the MP4 into `videos/HindiRhymes/` or `videos/EnglishRhymes/` (H.264 + AAC recommended; keep files < 95 MB — GitHub rejects files > 100 MB).
 2. Add a thumbnail to `thumbnails/`.
 3. Add an entry to `videos.json`:
 
@@ -25,7 +25,7 @@ scripts/         # validation tooling
   "id": "twinkle-twinkle",
   "title": "Twinkle Twinkle Little Star",
   "language": "en",
-  "file": "videos/en/twinkle-twinkle.mp4",
+  "file": "videos/EnglishRhymes/twinkle-twinkle.mp4",
   "thumbnail": "thumbnails/twinkle-twinkle.jpg",
   "duration": 180,
   "channel": "@tapputv"
