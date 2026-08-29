@@ -3,179 +3,186 @@
   "baseUrl": ".",
   "videos": [
     {
-      "id": "aaha-tamatar-bade-mazedar",
+      "id": "rhyme-01",
       "title": "Aaha Tamatar Bade Mazedar",
       "language": "hi",
-      "file": "videos/HindiRhymes/aaha-tamatar-bade-mazedar.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Aaha Tamatar Bade Mazedar _ आहा टमाटर _ 2D Hindi Rhymes _ Hindi Rhymes for Kids _ Tappu TV.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "aloo-kachaloo-beta",
+      "id": "rhyme-02",
       "title": "Aloo Kachaloo Beta",
       "language": "hi",
-      "file": "videos/HindiRhymes/aloo-kachaloo-beta.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Aloo Kachaloo Beta _ आलू कचालू बेटा कहाँ गए थे _ Hindi Rhyme for Kids _ Nursery Rhymes _ Tappu TV.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "bandar-mama-pahan-pajama-3d-animated-hindi-rhymes",
-      "title": "Bandar- Mama Pahan Pajama - 3D Animated Hindi Rhymes",
+      "id": "rhyme-03",
+      "title": "Bandar- Mama Pahan Pajama",
       "language": "hi",
-      "file": "videos/HindiRhymes/bandar-mama-pahan-pajama-3d-animated-hindi-rhymes.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Bandar- Mama Pahan Pajama - 3D Animated Hindi Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "chal-mere-ghode-chal-tik-tik",
+      "id": "rhyme-04",
       "title": "Chal Mere Ghode Chal Tik Tik",
       "language": "hi",
-      "file": "videos/HindiRhymes/chal-mere-ghode-chal-tik-tik.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Chal Mere Ghode Chal Tik Tik _ चल मेरे घोड़े टिक टिक _ Hindi Rhymes _ Nursery Rhyme _ Popular Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "chanda-mama-door-ke",
+      "id": "rhyme-05",
       "title": "Chanda Mama Door Ke",
       "language": "hi",
-      "file": "videos/HindiRhymes/chanda-mama-door-ke.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Chanda Mama Door Ke _ चंदा मामा l Hindi Rhymes And Kids Songs l Hindi Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "chidiya-rani-badi-sayani",
+      "id": "rhyme-06",
       "title": "Chidiya Rani Badi Sayani",
       "language": "hi",
-      "file": "videos/HindiRhymes/chidiya-rani-badi-sayani.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Chidiya Rani Badi Sayani _ चिड़िया रानी _ Hindi Nursery Rhymes _ बाल कविताएं _ Tappu TV.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "chunnu-munnu-they-do-bhai",
+      "id": "rhyme-07",
       "title": "Chunnu Munnu They Do Bhai",
       "language": "hi",
-      "file": "videos/HindiRhymes/chunnu-munnu-they-do-bhai.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Chunnu Munnu They Do Bhai _ चुन्नू मुन्नू थे दो भाई _ Hindi Rhymes _ Hindi Balgeet _ Nursery Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "ek-mota-hathi",
+      "id": "rhyme-08",
       "title": "Ek Mota Hathi",
       "language": "hi",
-      "file": "videos/HindiRhymes/ek-mota-hathi.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Ek Mota Hathi _  एक मोटा हाथी _ Hindi Rhymes _ Popular Hindi Rhymes for Kids _ Hindi Balgeet.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "gaiya-meri-aati-hai",
+      "id": "rhyme-09",
       "title": "Gaiya Meri Aati Hai",
       "language": "hi",
-      "file": "videos/HindiRhymes/gaiya-meri-aati-hai.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Gaiya Meri Aati Hai _ गैया मेरी गईया _ Hindi Rhymes _ Popular Kids Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "gubbare-wala",
+      "id": "rhyme-10",
       "title": "Gubbare Wala",
       "language": "hi",
-      "file": "videos/HindiRhymes/gubbare-wala.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Gubbare Wala _ Hindi Poem _ गुब्बारे वाला _ Chanda Mama O Pyare Chanda Mama_ Hindi Rhymes _ Tappu TV.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "hathi-raja",
+      "id": "rhyme-11",
+      "title": "Gubbare Wala",
+      "language": "hi",
+      "file": "videos/HindiRhymes/Gubbare Wala _ गुब्बारे वाला _ Hindi Rhymes for Kids _ Hindi Rhmyes _ Nursery Rhymes _ Kids Cartoon.mp4",
+      "channel": "Tappu TV"
+    },
+    {
+      "id": "rhyme-12",
       "title": "Hathi Raja",
       "language": "hi",
-      "file": "videos/HindiRhymes/hathi-raja.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Hathi Raja _ हाथी राजा कहाँ चले  _ Hindi Rhymes _ Baby songs hindi _ Nursery Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "kalu-madari-aaya",
+      "id": "rhyme-13",
       "title": "Kalu Madari Aaya",
       "language": "hi",
-      "file": "videos/HindiRhymes/kalu-madari-aaya.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Kalu Madari Aaya _  कालू मदारी आया _ Rhymes In Hindi _ Hindi Balgeet _ Hindi Rhymes For Kids.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "kukdoo-koo-hindi-rhyme",
+      "id": "rhyme-14",
       "title": "Kukdoo Koo Hindi Rhyme",
       "language": "hi",
-      "file": "videos/HindiRhymes/kukdoo-koo-hindi-rhyme.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Kukdoo Koo Hindi Rhyme _ कुकड़ू कु _ Hindi Poems _ Hindi Animal Sounds _ Nursery Rhyme in Hindi.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "lakdi-ki-kathi",
+      "id": "rhyme-15",
       "title": "Lakdi Ki Kathi",
       "language": "hi",
-      "file": "videos/HindiRhymes/lakdi-ki-kathi.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Lakdi Ki Kathi _ लकड़ी की काठी + More Hindi Rhymes _ Hindi Rhymes for Kids _ Kids Poems.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "lakdi-ki-kathi-2",
+      "id": "rhyme-16",
       "title": "Lakdi Ki Kathi",
       "language": "hi",
-      "file": "videos/HindiRhymes/lakdi-ki-kathi-2.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Lakdi Ki Kathi _ लकड़ी की काठी + Titli Udi Bus Me Chadhi _ Hindi Rhymes for Kids _ Hindi Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "lakdi-ki-kathi-3",
+      "id": "rhyme-17",
       "title": "Lakdi Ki Kathi",
       "language": "hi",
-      "file": "videos/HindiRhymes/lakdi-ki-kathi-3.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Lakdi Ki Kathi _ लकड़ी की काठी _ Hindi Rhymes for Kids _ Popular Hindi Children Songs _ Hindi Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "lal-tamatar-lakdi-ki-kathi",
+      "id": "rhyme-18",
       "title": "Lal Tamatar & Lakdi Ki Kathi",
       "language": "hi",
-      "file": "videos/HindiRhymes/lal-tamatar-lakdi-ki-kathi.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Lal Tamatar & Lakdi Ki Kathi _ लकड़ी की काठी _ Hindi Rhymes for Kids _ Hindi Animation Video.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "lal-tamatar",
+      "id": "rhyme-19",
       "title": "Lal Tamatar",
       "language": "hi",
-      "file": "videos/HindiRhymes/lal-tamatar.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Lal Tamatar _ लाल टमाटर _ Laal Tamatar _ Hindi Rhymes for Kids _ Popular Hindi Children Songs.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "machli-jal-ki-rani-hai",
+      "id": "rhyme-20",
       "title": "Machli Jal ki Rani hai",
       "language": "hi",
-      "file": "videos/HindiRhymes/machli-jal-ki-rani-hai.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Machli Jal ki Rani hai _ Hindi Rhymes _ Nursery Rhymes _ Popular Hindi Rhymes for Kids.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "main-tota-main-tota",
+      "id": "rhyme-21",
       "title": "Main Tota Main Tota",
       "language": "hi",
-      "file": "videos/HindiRhymes/main-tota-main-tota.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Main Tota Main Tota _ मैं तोता मैं तोता _ Rhymes in Hindi _ Hindi Rhymes for Kids _ HIndi Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "meow-meow-billi-karti",
+      "id": "rhyme-22",
       "title": "Meow Meow Billi Karti",
       "language": "hi",
-      "file": "videos/HindiRhymes/meow-meow-billi-karti.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Meow Meow Billi Karti _ म्याऊ म्याऊ _ Hindi Rhymes for Kids _ Hindi Balgeet _ Tappu TV.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "nani-teri-morni-ko-mor-le-gaye",
+      "id": "rhyme-23",
       "title": "Nani Teri Morni ko mor le gaye",
       "language": "hi",
-      "file": "videos/HindiRhymes/nani-teri-morni-ko-mor-le-gaye.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Nani Teri Morni ko mor le gaye _ Hindi Balgeet & Hindi Rhymes _ Animated Songs by Tappu TV.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "pani-barsa-cham-cham",
+      "id": "rhyme-24",
       "title": "Pani Barsa Cham Cham",
       "language": "hi",
-      "file": "videos/HindiRhymes/pani-barsa-cham-cham.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Pani Barsa Cham Cham _ पानी बरसा छम छम छम _ Hindi Rhymes for Kids _ Popular Hindi Nursery Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "upar-pankha-chalta-hai",
+      "id": "rhyme-25",
       "title": "Upar Pankha Chalta Hai",
       "language": "hi",
-      "file": "videos/HindiRhymes/upar-pankha-chalta-hai.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/Upar Pankha Chalta Hai _ ऊपर पंखा चलता है _ Hindi Rhymes _ Hindi Rhymes for Kids _ Nursery Rhymes.mp4",
+      "channel": "Tappu TV"
     },
     {
-      "id": "ladki-ki-kathi",
+      "id": "rhyme-26",
       "title": "लकड़ी की काठी",
       "language": "hi",
-      "file": "videos/HindiRhymes/ladki-ki-kathi.mp4",
-      "channel": "@tapputv"
+      "file": "videos/HindiRhymes/लकड़ी की काठी _ Ladki ki kathi _ Popular Hindi Kids Songs - Tappu TV Hindi Rhymes and Animated song.mp4",
+      "channel": "Tappu TV"
     }
   ]
 }
