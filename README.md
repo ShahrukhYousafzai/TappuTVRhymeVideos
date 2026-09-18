@@ -10,15 +10,13 @@ videos.json          # manifest consumed by the app
 schema.json          # JSON schema for the manifest
 videos/HindiRhymes/  # Hindi rhyme MP4s
 videos/EnglishRhymes/# English rhyme MP4s (to be added)
-thumbnails/          # poster images (jpg)
 scripts/             # validation tooling
 ```
 
 ## Adding a video
 
 1. Drop the MP4 into `videos/HindiRhymes/` or `videos/EnglishRhymes/` (H.264 + AAC recommended; keep files < 95 MB — GitHub rejects files > 100 MB).
-2. Add a thumbnail to `thumbnails/`.
-3. Add an entry to `videos.json`:
+2. Add an entry to `videos.json`:
 
 ```json
 {
@@ -26,13 +24,19 @@ scripts/             # validation tooling
   "title": "Twinkle Twinkle Little Star",
   "language": "en",
   "file": "videos/EnglishRhymes/twinkle-twinkle.mp4",
-  "thumbnail": "thumbnails/twinkle-twinkle.jpg",
-  "duration": 180,
   "channel": "@tapputv"
 }
 ```
 
-4. Validate:
+Only `id`, `title`, `language` and `file` are required. The app generates
+thumbnails (from a mid-video frame) and reads durations automatically, so
+`thumbnail` and `duration` fields are optional — but you can still set them
+explicitly to override the generated ones:
+
+- `"thumbnail": "thumbnails/twinkle-twinkle.jpg"` (optional poster image)
+- `"duration": 180` (optional, seconds)
+
+3. Validate:
 
 ```sh
 node scripts/validate.js
@@ -48,8 +52,9 @@ point the app's data layer at it:
 const MANIFEST_URL = 'https://shahrukhyousafzai.github.io/TappuTVRhymeVideos/videos.json';
 ```
 
-Each entry's `file` and `thumbnail` resolve as `baseUrl + file`, and can be fed
+Each entry's `file` (and `thumbnail`, if set) resolves as `baseUrl + file`, and can be fed
 straight into a native/HLS-capable `<video>` player — no YouTube SDK needed.
+The app auto-generates missing thumbnails/durations on the device.
 
 ## GitHub limits to know
 

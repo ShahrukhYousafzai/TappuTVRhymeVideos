@@ -14,12 +14,19 @@ let errors = 0;
 const referenced = new Set();
 
 for (const v of manifest.videos) {
-  for (const key of ['file', 'thumbnail']) {
-    if (!v[key]) continue;
-    referenced.add(path.normalize(v[key]));
-    const p = path.join(root, v[key]);
-    if (!fs.existsSync(p)) {
-      console.error(`MISSING (${key}): ${v.id} -> ${v[key]}`);
+  if (!v.file) continue;
+  referenced.add(path.normalize(v.file));
+  const p = path.join(root, v.file);
+  if (!fs.existsSync(p)) {
+    console.error(`MISSING (file): ${v.id} -> ${v.file}`);
+    errors++;
+  }
+  // thumbnail, if set, is also resolved relative to the repo root
+  if (v.thumbnail) {
+    referenced.add(path.normalize(v.thumbnail));
+    const tp = path.join(root, v.thumbnail);
+    if (!fs.existsSync(tp)) {
+      console.error(`MISSING (thumbnail): ${v.id} -> ${v.thumbnail}`);
       errors++;
     }
   }
@@ -40,7 +47,7 @@ const walk = (dir) => {
     }
   }
 };
-['videos', 'thumbnails'].forEach((d) => {
+['videos'].forEach((d) => {
   const p = path.join(root, d);
   if (fs.existsSync(p)) walk(p);
 });
